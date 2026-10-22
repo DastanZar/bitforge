@@ -1,0 +1,25 @@
+{
+  "determinism": {
+    "run1": "513f2321c1456500",
+    "run2": "513f2321c1456500",
+    "identical": true
+  },
+  "matmul_precision_vs_f64": {
+    "max_abs_err": 0.0007681331037101558,
+    "rms_err": 0.00014657105759251213,
+    "relative_rms": 2.3956389867197176e-05
+  },
+  "softmax": {
+    "bits3": {
+      "argmax_agreement_pct_decidable": 100.0,
+      "undecidable_near_ties_pct": 58.0,
+      "max_prob_deviation": 0.00534
+    },
+    "bits4": {
+      "argmax_agreement_pct_decidable": 100.0,
+      "undecidable_near_ties_pct": 59.5,
+      "max_prob_deviation": 0.00239
+    }
+  },
+  "note": "Float conversion and reference modules are intentionally exempt from the source audit. lint_forward detects selected float syntax, not arbitrary runtime dtype flow. Softmax agreement excludes the reported near-tie subset."
+}

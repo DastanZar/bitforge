@@ -1,0 +1,60 @@
+{
+  "seed": 2,
+  "shapes": [
+    [
+      128,
+      256
+    ],
+    [
+      256,
+      64
+    ]
+  ],
+  "method": "Input rounding followed by float64 matmul; not the integer kernel",
+  "measurements": [
+    {
+      "fractional_bits": 6,
+      "relative_rms": 0.012222994876055661
+    },
+    {
+      "fractional_bits": 7,
+      "relative_rms": 0.006112062464594345
+    },
+    {
+      "fractional_bits": 8,
+      "relative_rms": 0.0030829077935083204
+    },
+    {
+      "fractional_bits": 9,
+      "relative_rms": 0.001496610800030688
+    },
+    {
+      "fractional_bits": 10,
+      "relative_rms": 0.0007631008754760286
+    },
+    {
+      "fractional_bits": 11,
+      "relative_rms": 0.00037872421786504576
+    },
+    {
+      "fractional_bits": 12,
+      "relative_rms": 0.0001916422464242326
+    },
+    {
+      "fractional_bits": 13,
+      "relative_rms": 9.48387019168931e-05
+    },
+    {
+      "fractional_bits": 14,
+      "relative_rms": 4.755373654140517e-05
+    },
+    {
+      "fractional_bits": 15,
+      "relative_rms": 2.3827001525771074e-05
+    },
+    {
+      "fractional_bits": 16,
+      "relative_rms": 1.1828814693629002e-05
+    }
+  ]
+}
